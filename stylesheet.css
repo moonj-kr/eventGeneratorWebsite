@@ -1,1 +1,26 @@
+*{
+	margin: 0;
+	padding: 0;
+}
 
+.wrapper{
+	padding-top: 2%;
+	display: grid;
+	grid-template-columns: 20% 60% 20%;
+}
+
+.inside{
+	grid-column-start: 2;
+}
+
+@media only screen and (max-width: 900px) {
+	.wrapper{
+		grid-template-columns: 10% 80% 10%;
+	}
+  }
+
+@media only screen and (max-width: 600px) {
+	.wrapper{
+		grid-template-columns: 5% 90% 5%;
+	}
+  }
