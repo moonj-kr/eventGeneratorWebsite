@@ -1,2 +1,2 @@
 # eventGeneratorWebsite
-website for the EventGenerator
+static website for the EventGenerator
